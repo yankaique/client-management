@@ -15,9 +15,9 @@ export function Signin() {
 
   return (
     <main className="flex h-screen w-screen flex-col items-center justify-center bg-background gap-4">
-      <img className="w-20" src={Logo} alt="Logo Management User" />
+      <img className="w-20" src={Logo} alt="Logo Client Management" />
       <h1 className="text-2xl font-semibold">
-        Bem-vindo(a) ao Management User!
+        Bem-vindo(a) ao Client Management!
       </h1>
       <SignedOut>
         <SignInButton fallbackRedirectUrl="/dashboard" mode="modal">

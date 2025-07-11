@@ -12,7 +12,7 @@ export const HeaderBase = ({ className }: { className?: string }) => {
       <img
         className="w-8 hidden md:block mr-0 md:mr-4"
         src={Logo}
-        alt="Logo Management User"
+        alt="Logo Client Management"
       />
       <section className="flex md:gap-4 gap-2 md:flex-row flex-col">
         {links.map(link => (

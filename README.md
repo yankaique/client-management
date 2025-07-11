@@ -1,6 +1,6 @@
 <div align="center">
     <h1 margin="0">
-        Management User
+        Client Management
     </h1>
 </div>
 
@@ -19,7 +19,7 @@
 <h3 id="introduction">Introdução 🏁</h3>
     <hr />
     <p>
-        O Management User é uma aplicação para gerenciar clientes.
+        O Client Management é uma aplicação para gerenciar clientes.
     </p>
     <p>
         Todo o app é construído com React.js, Tailwind CSS e Clerk.
