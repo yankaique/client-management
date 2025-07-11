@@ -23,6 +23,7 @@ import {
 } from '@/components/ui/form';
 import { Input } from '@/components/ui/input';
 import { DatePicker } from './datePicker';
+import { toast } from 'sonner';
 
 const formSchema = z.object({
   email: z
@@ -64,7 +65,7 @@ export function CreateClientDialog({ refetch }: { refetch: () => void }) {
       refetch();
       form.reset();
     } catch (error) {
-      console.log(error);
+      toast('Houve um erro ao adicionar o cliente');
     }
   };
 
