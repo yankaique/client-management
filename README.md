@@ -1,69 +1,46 @@
-# React + TypeScript + Vite
+<div align="center">
+    <h1 margin="0">
+        Management User
+    </h1>
+</div>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<h6 align="center">
+    🥋 Hard work and Code
+</h6>
 
-Currently, two official plugins are available:
+<p align="center">
+    <a href="#introduction">Introdução</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+    <a href="#tecnologies">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+    <a href="#install">Instalação</a>
+</p>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<br />
 
-## Expanding the ESLint configuration
+<h3 id="introduction">Introdução 🏁</h3>
+    <hr />
+    <p>
+        O Management User é uma aplicação para gerenciar clientes.
+    </p>
+    <p>
+        Todo o app é construído com React.js, Tailwind CSS e Clerk.
+    </p>
+<br>
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+<h3 id="tecnologies">Tecnologias 🚀</h3>
+<hr />
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+<a href="https://reactjs.org/">React.js</a>
+<a href="https://tailwindcss.com/">Tailwind CSS</a>
+<a href="https://clerk.com/">Clerk</a>
+<a href="https://reactrouter.com/">React Router</a>
+<br>
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
-
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-]);
-```
-
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x';
-import reactDom from 'eslint-plugin-react-dom';
-
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-]);
-```
+<h3 id="install">Instalação 📲</h3>
+<hr />
+    <p>
+        Infelizmente não consegui dockerizar a aplicação, mas deixo minhas versões do NPM e Node para que o
+        teste seja similar:
+        NPM: 10.9.2
+        Node: v21.11.0
+    </p>
+<br>
